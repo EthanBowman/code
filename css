@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren|Quicksand|Shadows+Into+Light&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-image:linear-gradient(to bottom right, #F694C1, #80FFEC);
+}
+h1, h2 { 
+    font-family: 'McLaren', cursive; 
+    color: #36F1CD;
+}
+header {
+    display: flex;
+    align-items: center;
+    background: #0FA3B1;
+}
+header h1 { 
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 400%;
+    font-weight: lighter;
+    color: inherit;
+}
+p {
+    font-family: 'fantasy';
+    font-size: 115%;
+    color: black 
+}
+nav {
+    display: flex;
+    background: #51A3A3;
+    border-top: solid #262626 thin;
+    border-bottom: solid #262626 thin;
+    box-shadow: 0px 2px #D741A7;
+}
+nav p {
+    flex: 1 1 100px;
+    text-align: center;
+
+}
+nav a { 
+    text-decoration: none;
+    color: #FFFFF2;
+    font-weight: bold;
+}
+nav a:hover { 
+    text-decoration: none;
+    color: #D741A7;
+    font-weight: bold;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3em;
+    background: #51A3A3;
+    border-top: solid #262626 thin;
+    box-shadow: 0px -2px #D741A7;
+}
+#content {
+    margin: 0 1em 5em 1em;
+}
+.centre {
+    text-align: center;
+}
+.float {
+    float: right;
+}
+.small {
+    font-size: smaller;
+}
+.italics {
+    font-style: italic;
+}
+div img {
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px grey;
+  }
