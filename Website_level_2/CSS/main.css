@@ -4,6 +4,7 @@ body {
     margin: 0;
     background-image:linear-gradient(to bottom right, #F694C1, #80FFEC);
 }
+/*this is my body, it defines everything that it represents */
 h1, h2 { 
     font-family:monospace; 
     color: #990033;
@@ -25,6 +26,7 @@ nav {
     border-bottom: solid #262626 thin;
     box-shadow: 0px 2px #D741A7;
 }
+/*this dictates what the nav will look like from fonts to colors*/
 nav p {
     flex: 1 1 100px;
     text-align: center;
